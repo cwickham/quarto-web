@@ -7,12 +7,10 @@ appId = ENV["ALGOLIA_APP_ID"]
 indexName = ENV["ALGOLIA_INDEX"]
 indexFile = ENV["QUARTO_INDEX_PATH"]
 
-# Download the index from quarto.org
-IO.copy_stream('search.json', indexFile)
 
 client  = Algolia::Search::Client.create(appId, apiKey)
 index   = client.init_index(indexName)
-file    = File.read(indexFile)
+file    = File.read('search.json')
 records = JSON.parse(file)
 
 # The API client automatically batches your records
