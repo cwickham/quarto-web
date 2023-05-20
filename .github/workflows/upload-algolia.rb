@@ -8,8 +8,7 @@ indexName = ENV["ALGOLIA_INDEX"]
 indexFile = ENV["QUARTO_INDEX_PATH"]
 
 # Download the index from quarto.org
-download = open('search.json')
-IO.copy_stream(download, indexFile)
+IO.copy_stream(download, 'search.json')
 
 client  = Algolia::Search::Client.create(appId, apiKey)
 index   = client.init_index(indexName)
