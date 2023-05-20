@@ -10,7 +10,6 @@ website:
   title: "Quarto"
   image: "quarto.png"
   favicon: "favicon.png"
-  google-analytics: "G-FV9Z7SDZ0M"
   open-graph: true
   twitter-card: true
   site-url: https://quarto.org
@@ -21,9 +20,9 @@ website:
   search:
     type: overlay
     algolia:
-      index-name: prod_QUARTO
-      application-id: ZPJB5I1QN7
-      search-only-api-key: 41be6c1e0a7fea4a51b107810facf577
+      index-name: test_QUARTO
+      application-id: 8U2047O4BH
+      search-only-api-key: a32f2f14b860af369ec5b51cceda0eb6
       analytics-events: true
       show-logo: true
   page-footer:
