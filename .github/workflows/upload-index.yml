@@ -2,9 +2,9 @@
 name: Upload Index
 on:
   workflow_dispatch:
-  repository_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+  push:
+    branches: main
+    
 jobs:
   upload-index:
     runs-on: ubuntu-latest
@@ -25,7 +25,7 @@ jobs:
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
           ALGOLIA_APP_ID: 8U2047O4BH
-          ALGOLIA_INDEX: test_QUARTO
+          ALGOLIA_INDEX: test   _QUARTO
           QUARTO_INDEX_PATH: search.json
           
           

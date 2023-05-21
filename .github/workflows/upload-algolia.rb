@@ -15,3 +15,8 @@ records = JSON.parse(file)
 
 # The API client automatically batches your records
 index.replace_all_objects(records, {})
+
+index.set_settings({
+  distinct: 2,
+  attributeForDistinct: 'duplicate'
+})

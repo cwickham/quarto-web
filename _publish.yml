@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: dc325160-842d-4982-b2bf-b959c7ec4873
+      url: 'https://zesty-longma-f00d26.netlify.app'
