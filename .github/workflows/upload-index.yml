@@ -25,7 +25,7 @@ jobs:
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
           ALGOLIA_APP_ID: 8U2047O4BH
-          ALGOLIA_INDEX: test   _QUARTO
+          ALGOLIA_INDEX: test_QUARTO
           QUARTO_INDEX_PATH: search.json
           
           
