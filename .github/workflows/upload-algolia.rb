@@ -18,5 +18,11 @@ index.replace_all_objects(records, {})
 
 index.set_settings({
   distinct: 2,
-  attributeForDistinct: 'duplicate'
+  attributeForDistinct: 'groups'
+})
+
+index.set_settings({
+  customRanking: [
+    'format_rank'
+  ]
 })
