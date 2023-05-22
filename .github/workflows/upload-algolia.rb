@@ -23,6 +23,6 @@ index.set_settings({
 
 index.set_settings({
   customRanking: [
-    asc('format_rank')
+    'asc(retweets)'
   ]
 })
