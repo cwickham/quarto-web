@@ -23,6 +23,6 @@ index.set_settings({
 
 index.set_settings({
   customRanking: [
-    'format_rank'
+    asc('format_rank')
   ]
 })
