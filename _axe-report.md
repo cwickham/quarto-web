@@ -1,8 +1,8 @@
-Results for [quarto.org](https://quarto.org) at commit [`c42f431d4`](https://github.com/quarto-dev/quarto-web/tree/c42f431d444c73da2132fc600f502c1f71d35955), scanned October 2, 2026.
+Results for [quarto.org](https://quarto.org) at commit [`e48891d0b`](https://github.com/quarto-dev/quarto-web/tree/e48891d0be6c0673dc24e788ffb18747ac914392), scanned October 5, 2026.
 
 # axe site audit
 
-372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.11.5 · generated 2026-10-02T17:22:43.558Z
+372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.11.5 · generated 2026-10-05T13:15:55.830Z
 
 > **Partial scan** (`--exclude docs/get-started/*/index.html,docs/manuscripts/authoring/index.html`) — counts describe this subset, not the whole site. A one-page rescan proves an instance is gone, not that the finding is fixed on other pages.
 
@@ -119,8 +119,8 @@ Results for [quarto.org](https://quarto.org) at commit [`c42f431d4`](https://git
 | [`color-contrast-78b899`](#color-contrast-78b899) | WCAG 2.0 AA | serious | 2 | 21 | #bbbbbb on #ffffff = 1.91 (needs 4.5:1) |
 | [`color-contrast-0e3605`](#color-contrast-0e3605) | WCAG 2.0 AA | serious | 1 | 15 | #000000 on #151515 = 1.14 (needs 4.5:1) |
 | [`color-contrast-342bf5`](#color-contrast-342bf5) | WCAG 2.0 AA | serious | 2 | 5 | #dbbd99 on #ffffff = 1.78 (needs 4.5:1) |
-| [`color-contrast-a80056`](#color-contrast-a80056) | WCAG 2.0 AA | serious | 2 | 2 | #f8f8f8 on #dddddd = 1.27 (needs 4.5:1) |
 | [`color-contrast-9cb880`](#color-contrast-9cb880) | WCAG 2.0 AA | serious | 2 | 2 | #0078a8 on #dddddd = 3.63 (needs 4.5:1) |
+| [`color-contrast-a80056`](#color-contrast-a80056) | WCAG 2.0 AA | serious | 2 | 2 | #f8f8f8 on #dddddd = 1.27 (needs 4.5:1) |
 | [`color-contrast-eb795e`](#color-contrast-eb795e) | WCAG 2.0 AA | serious | 1 | 2 | #99cc99 on #ffffff = 1.83 (needs 4.5:1) |
 | [`color-contrast-625978`](#color-contrast-625978) | WCAG 2.0 AA | serious | 1 | 1 | #2a76dd on #ffffff = 4.43 (needs 4.5:1) |
 | [`color-contrast-f8f4b2`](#color-contrast-f8f4b2) | WCAG 2.0 AA | serious | 1 | 1 | #aaaaaa on #ffffff = 2.32 (needs 4.5:1) |
@@ -184,29 +184,29 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="7"]` | `<input type="checkbox" value="7">` |
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="8"]` | `<input type="checkbox" value="8">` |
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="9"]` | `<input type="checkbox" value="9">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="480"]` | `<input type="checkbox" value="480">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="481"]` | `<input type="checkbox" value="481">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="482"]` | `<input type="checkbox" value="482">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="483"]` | `<input type="checkbox" value="483">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="484"]` | `<input type="checkbox" value="484">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="485"]` | `<input type="checkbox" value="485">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="486"]` | `<input type="checkbox" value="486">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="487"]` | `<input type="checkbox" value="487">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="488"]` | `<input type="checkbox" value="488">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="489"]` | `<input type="checkbox" value="489">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="490"]` | `<input type="checkbox" value="490">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="491"]` | `<input type="checkbox" value="491">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="492"]` | `<input type="checkbox" value="492">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="493"]` | `<input type="checkbox" value="493">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="494"]` | `<input type="checkbox" value="494">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="495"]` | `<input type="checkbox" value="495">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="496"]` | `<input type="checkbox" value="496">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="497"]` | `<input type="checkbox" value="497">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="498"]` | `<input type="checkbox" value="498">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="499"]` | `<input type="checkbox" value="499">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="480"]` | `<input type="checkbox" value="480">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="481"]` | `<input type="checkbox" value="481">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="482"]` | `<input type="checkbox" value="482">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="483"]` | `<input type="checkbox" value="483">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="484"]` | `<input type="checkbox" value="484">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="485"]` | `<input type="checkbox" value="485">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="486"]` | `<input type="checkbox" value="486">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="487"]` | `<input type="checkbox" value="487">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="488"]` | `<input type="checkbox" value="488">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="489"]` | `<input type="checkbox" value="489">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="490"]` | `<input type="checkbox" value="490">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="491"]` | `<input type="checkbox" value="491">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="492"]` | `<input type="checkbox" value="492">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="493"]` | `<input type="checkbox" value="493">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="494"]` | `<input type="checkbox" value="494">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="495"]` | `<input type="checkbox" value="495">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="496"]` | `<input type="checkbox" value="496">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="497"]` | `<input type="checkbox" value="497">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="498"]` | `<input type="checkbox" value="498">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="499"]` | `<input type="checkbox" value="499">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
@@ -351,7 +351,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
 
 </details>
 
@@ -2609,24 +2609,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?applicatio
 
 </details>
 
-#### color-contrast-a80056
-
-<details>
-<summary>Elements must meet minimum color contrast ratio thresholds (2 instances on 2 pages)</summary>
-
-**Standard:** WCAG 2.0 AA (1.4.3) · **Impact:** serious · **Signature:** `color-contrast :: #f8f8f8 on #dddddd`
-
-**Problem:** #f8f8f8 on #dddddd = 1.27 (needs 4.5:1)
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
-| docs/interactive/widgets/jupyter.html | 1440x900·dark, 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
-
-</details>
-
 #### color-contrast-9cb880
 
 <details>
@@ -2640,8 +2622,26 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?applicatio
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+| docs/interactive/index.html | 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+
+</details>
+
+#### color-contrast-a80056
+
+<details>
+<summary>Elements must meet minimum color contrast ratio thresholds (2 instances on 2 pages)</summary>
+
+**Standard:** WCAG 2.0 AA (1.4.3) · **Impact:** serious · **Signature:** `color-contrast :: #f8f8f8 on #dddddd`
+
+**Problem:** #f8f8f8 on #dddddd = 1.27 (needs 4.5:1)
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/interactive/index.html | 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
+| docs/interactive/widgets/jupyter.html | 1440x900·dark, 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
 
 </details>
 
@@ -2886,7 +2886,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/presentation-role-conflic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/htmlwidgets.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="http://cdn.leafletjs.com/leaflet/v1.3.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(394px, 139px, 0px); z-index: 139;">` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/presentations/revealjs/demo/index.html | 320x568·default | `.leaflet-marker-icon` | `<img src="https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(480px, 240px, 0px); z-index: 240;">` |
@@ -2925,7 +2925,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?applica
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 
 </details>
@@ -3081,7 +3081,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?applic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#oi-3a86ea-1 > table > thead > tr > th:nth-child(1)` | `<th><input type="checkbox"></th>` |
+| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `#oi-3a86ea-1 > table > thead > tr > th:nth-child(1)` | `<th><input type="checkbox"></th>` |
 
 </details>
 
