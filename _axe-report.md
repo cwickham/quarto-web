@@ -1,8 +1,8 @@
-Results for [quarto.org](https://quarto.org) at commit [`e48891d0b`](https://github.com/quarto-dev/quarto-web/tree/e48891d0be6c0673dc24e788ffb18747ac914392), scanned October 5, 2026.
+Results for [quarto.org](https://quarto.org) at commit [`bbc83b99c`](https://github.com/quarto-dev/quarto-web/tree/bbc83b99cc7af43997a199abda41beec988acf85), scanned October 12, 2026.
 
 # axe site audit
 
-372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.11.5 · generated 2026-10-05T13:15:55.830Z
+372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.11.5 · generated 2026-10-12T14:06:13.185Z
 
 > **Partial scan** (`--exclude docs/get-started/*/index.html,docs/manuscripts/authoring/index.html`) — counts describe this subset, not the whole site. A one-page rescan proves an instance is gone, not that the finding is fixed on other pages.
 
@@ -47,7 +47,6 @@ Results for [quarto.org](https://quarto.org) at commit [`e48891d0b`](https://git
 | [`frame-title-cb63be`](#frame-title-cb63be) | WCAG 2.0 A | serious | 1 | 4 | Element has no title attribute |
 | [`frame-title-7513ef`](#frame-title-7513ef) | WCAG 2.0 A | serious | 1 | 3 | Element has no title attribute |
 | [`link-name-a6cfcf`](#link-name-a6cfcf) | WCAG 2.0 A | serious | 2 | 2 | Element is in tab order and does not have accessible text |
-| [`link-in-text-block-7b0c90`](#link-in-text-block-7b0c90) | WCAG 2.0 A | serious | 2 | 2 | The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40) |
 | [`scrollable-region-focusable-37e708`](#scrollable-region-focusable-37e708) | WCAG 2.0 A | serious | 1 | 2 | Element should have focusable content |
 | [`scrollable-region-focusable-2add8a`](#scrollable-region-focusable-2add8a) | WCAG 2.0 A | serious | 1 | 2 | Element should have focusable content |
 | [`aria-prohibited-attr-f1d7f8`](#aria-prohibited-attr-f1d7f8) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
@@ -87,6 +86,7 @@ Results for [quarto.org](https://quarto.org) at commit [`e48891d0b`](https://git
 | [`aria-prohibited-attr-3d36c9`](#aria-prohibited-attr-3d36c9) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-6960fe`](#aria-prohibited-attr-6960fe) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`scrollable-region-focusable-6e4c77`](#scrollable-region-focusable-6e4c77) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
+| [`link-in-text-block-7b0c90`](#link-in-text-block-7b0c90) | WCAG 2.0 A | serious | 1 | 1 | The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40) |
 | [`scrollable-region-focusable-f571d3`](#scrollable-region-focusable-f571d3) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
 | [`scrollable-region-focusable-c5d074`](#scrollable-region-focusable-c5d074) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
 | [`scrollable-region-focusable-1d2df2`](#scrollable-region-focusable-1d2df2) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
@@ -119,8 +119,8 @@ Results for [quarto.org](https://quarto.org) at commit [`e48891d0b`](https://git
 | [`color-contrast-78b899`](#color-contrast-78b899) | WCAG 2.0 AA | serious | 2 | 21 | #bbbbbb on #ffffff = 1.91 (needs 4.5:1) |
 | [`color-contrast-0e3605`](#color-contrast-0e3605) | WCAG 2.0 AA | serious | 1 | 15 | #000000 on #151515 = 1.14 (needs 4.5:1) |
 | [`color-contrast-342bf5`](#color-contrast-342bf5) | WCAG 2.0 AA | serious | 2 | 5 | #dbbd99 on #ffffff = 1.78 (needs 4.5:1) |
-| [`color-contrast-9cb880`](#color-contrast-9cb880) | WCAG 2.0 AA | serious | 2 | 2 | #0078a8 on #dddddd = 3.63 (needs 4.5:1) |
 | [`color-contrast-a80056`](#color-contrast-a80056) | WCAG 2.0 AA | serious | 2 | 2 | #f8f8f8 on #dddddd = 1.27 (needs 4.5:1) |
+| [`color-contrast-9cb880`](#color-contrast-9cb880) | WCAG 2.0 AA | serious | 2 | 2 | #0078a8 on #dddddd = 3.63 (needs 4.5:1) |
 | [`color-contrast-eb795e`](#color-contrast-eb795e) | WCAG 2.0 AA | serious | 1 | 2 | #99cc99 on #ffffff = 1.83 (needs 4.5:1) |
 | [`color-contrast-625978`](#color-contrast-625978) | WCAG 2.0 AA | serious | 1 | 1 | #2a76dd on #ffffff = 4.43 (needs 4.5:1) |
 | [`color-contrast-f8f4b2`](#color-contrast-f8f4b2) | WCAG 2.0 AA | serious | 1 | 1 | #aaaaaa on #ffffff = 2.32 (needs 4.5:1) |
@@ -1280,24 +1280,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/link-name?application=axe
 
 </details>
 
-#### link-in-text-block-7b0c90
-
-<details>
-<summary>Links must be distinguishable without relying on color (2 instances on 2 pages)</summary>
-
-**Standard:** WCAG 2.0 A (1.4.1) · **Impact:** serious · **Signature:** `link-in-text-block :: a`
-
-**Problem:** The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40)
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/index.html | 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
-| docs/interactive/widgets/jupyter.html | 1440x900·light, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
-
-</details>
-
 #### scrollable-region-focusable-37e708
 
 <details>
@@ -1968,6 +1950,23 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusab
 
 </details>
 
+#### link-in-text-block-7b0c90
+
+<details>
+<summary>Links must be distinguishable without relying on color (1 instance on 1 page)</summary>
+
+**Standard:** WCAG 2.0 A (1.4.1) · **Impact:** serious · **Signature:** `link-in-text-block :: a`
+
+**Problem:** The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40)
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/interactive/widgets/jupyter.html | 1440x900·light, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+
+</details>
+
 #### scrollable-region-focusable-f571d3
 
 <details>
@@ -2609,24 +2608,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?applicatio
 
 </details>
 
-#### color-contrast-9cb880
-
-<details>
-<summary>Elements must meet minimum color contrast ratio thresholds (2 instances on 2 pages)</summary>
-
-**Standard:** WCAG 2.0 AA (1.4.3) · **Impact:** serious · **Signature:** `color-contrast :: #0078a8 on #dddddd`
-
-**Problem:** #0078a8 on #dddddd = 3.63 (needs 4.5:1)
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/index.html | 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
-| docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
-
-</details>
-
 #### color-contrast-a80056
 
 <details>
@@ -2642,6 +2623,24 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?applicatio
 |---|---|---|---|
 | docs/interactive/index.html | 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
+
+</details>
+
+#### color-contrast-9cb880
+
+<details>
+<summary>Elements must meet minimum color contrast ratio thresholds (2 instances on 2 pages)</summary>
+
+**Standard:** WCAG 2.0 AA (1.4.3) · **Impact:** serious · **Signature:** `color-contrast :: #0078a8 on #dddddd`
+
+**Problem:** #0078a8 on #dddddd = 3.63 (needs 4.5:1)
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/interactive/index.html | 320x568·dark | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+| docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 
 </details>
 
@@ -2886,7 +2885,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/presentation-role-conflic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/htmlwidgets.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="http://cdn.leafletjs.com/leaflet/v1.3.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(394px, 139px, 0px); z-index: 139;">` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/presentations/revealjs/demo/index.html | 320x568·default | `.leaflet-marker-icon` | `<img src="https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(480px, 240px, 0px); z-index: 240;">` |
@@ -2925,7 +2924,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?applica
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 
 </details>
