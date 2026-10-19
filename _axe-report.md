@@ -1,12 +1,12 @@
-Results for [quarto.org](https://quarto.org) at commit [`bbc83b99c`](https://github.com/quarto-dev/quarto-web/tree/bbc83b99cc7af43997a199abda41beec988acf85), scanned October 12, 2026.
+Results for [quarto.org](https://quarto.org) at commit [`f5d84db31`](https://github.com/quarto-dev/quarto-web/tree/f5d84db319c988cc0c01da0b1646aa2dbe68fcde), scanned October 19, 2026.
 
 # axe site audit
 
-372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.11.5 · generated 2026-10-12T14:06:13.185Z
+372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.11.6 · generated 2026-10-19T11:51:16.532Z
 
 > **Partial scan** (`--exclude docs/get-started/*/index.html,docs/manuscripts/authoring/index.html`) — counts describe this subset, not the whole site. A one-page rescan proves an instance is gone, not that the finding is fixed on other pages.
 
-**133 new findings**. A finding on many pages usually repeats from a shared source — fixing it once fixes them all.
+**97 new findings**. A finding on many pages usually repeats from a shared source — fixing it once fixes them all.
 
 ## New findings
 
@@ -26,72 +26,41 @@ Results for [quarto.org](https://quarto.org) at commit [`bbc83b99c`](https://git
 | [`image-alt-4d0f7b`](#image-alt-4d0f7b) | WCAG 2.0 A | critical | 1 | 1 | Element does not have an alt attribute |
 | [`label-056181`](#label-056181) | WCAG 2.0 A | critical | 1 | 1 | Element does not have an implicit (wrapped) &lt;label&gt; |
 | [`aria-allowed-attr-3b0a3f`](#aria-allowed-attr-3b0a3f) | WCAG 2.0 A | critical | 1 | 1 | ARIA attribute is not allowed: aria-expanded="false" |
-| [`scrollable-region-focusable-7f835c`](#scrollable-region-focusable-7f835c) | WCAG 2.0 A | serious | 96 | 263 | Element should have focusable content |
 | [`aria-prohibited-attr-08001a`](#aria-prohibited-attr-08001a) | WCAG 2.0 A | serious | 4 | 57 | aria-label attribute cannot be used on a a with no valid role attribute. |
 | [`aria-prohibited-attr-b3114f`](#aria-prohibited-attr-b3114f) | WCAG 2.0 A | serious | 3 | 30 | aria-label attribute cannot be used on a a with no valid role attribute. |
 | [`scrollable-region-focusable-4fb120`](#scrollable-region-focusable-4fb120) | WCAG 2.0 A | serious | 25 | 25 | Element should have focusable content |
-| [`scrollable-region-focusable-37ee42`](#scrollable-region-focusable-37ee42) | WCAG 2.0 A | serious | 7 | 13 | Element should have focusable content |
 | [`frame-title-7be574`](#frame-title-7be574) | WCAG 2.0 A | serious | 2 | 13 | Element has no title attribute |
 | [`aria-prohibited-attr-5e781d`](#aria-prohibited-attr-5e781d) | WCAG 2.0 A | serious | 7 | 7 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-5c1e46`](#aria-prohibited-attr-5c1e46) | WCAG 2.0 A | serious | 7 | 7 | aria-label attribute cannot be used on a g with no valid role attribute. |
-| [`scrollable-region-focusable-7bcfa1`](#scrollable-region-focusable-7bcfa1) | WCAG 2.0 A | serious | 5 | 7 | Element should have focusable content |
 | [`aria-prohibited-attr-cac6c7`](#aria-prohibited-attr-cac6c7) | WCAG 2.0 A | serious | 6 | 6 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-c1244d`](#aria-prohibited-attr-c1244d) | WCAG 2.0 A | serious | 5 | 5 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`summary-name-881a03`](#summary-name-881a03) | WCAG 2.0 A | serious | 4 | 4 | Element does not have text that is visible to screen readers |
-| [`scrollable-region-focusable-3b5f0f`](#scrollable-region-focusable-3b5f0f) | WCAG 2.0 A | serious | 4 | 4 | Element should have focusable content |
-| [`scrollable-region-focusable-2f9bbd`](#scrollable-region-focusable-2f9bbd) | WCAG 2.0 A | serious | 4 | 4 | Element should have focusable content |
-| [`scrollable-region-focusable-c6d335`](#scrollable-region-focusable-c6d335) | WCAG 2.0 A | serious | 4 | 4 | Element should have focusable content |
 | [`aria-prohibited-attr-321313`](#aria-prohibited-attr-321313) | WCAG 2.0 A | serious | 2 | 4 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-066f44`](#aria-prohibited-attr-066f44) | WCAG 2.0 A | serious | 2 | 4 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-cdaa10`](#aria-prohibited-attr-cdaa10) | WCAG 2.0 A | serious | 2 | 4 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`frame-title-cb63be`](#frame-title-cb63be) | WCAG 2.0 A | serious | 1 | 4 | Element has no title attribute |
 | [`frame-title-7513ef`](#frame-title-7513ef) | WCAG 2.0 A | serious | 1 | 3 | Element has no title attribute |
 | [`link-name-a6cfcf`](#link-name-a6cfcf) | WCAG 2.0 A | serious | 2 | 2 | Element is in tab order and does not have accessible text |
-| [`scrollable-region-focusable-37e708`](#scrollable-region-focusable-37e708) | WCAG 2.0 A | serious | 1 | 2 | Element should have focusable content |
 | [`scrollable-region-focusable-2add8a`](#scrollable-region-focusable-2add8a) | WCAG 2.0 A | serious | 1 | 2 | Element should have focusable content |
 | [`aria-prohibited-attr-f1d7f8`](#aria-prohibited-attr-f1d7f8) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-3d5831`](#aria-prohibited-attr-3d5831) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-23aa6d`](#aria-prohibited-attr-23aa6d) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-0a7a48`](#aria-prohibited-attr-0a7a48) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`scrollable-region-focusable-291419`](#scrollable-region-focusable-291419) | WCAG 2.0 A | serious | 1 | 2 | Element should have focusable content |
-| [`scrollable-region-focusable-c7adfa`](#scrollable-region-focusable-c7adfa) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-39de8a`](#scrollable-region-focusable-39de8a) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-d747e7`](#scrollable-region-focusable-d747e7) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-04c370`](#scrollable-region-focusable-04c370) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
 | [`frame-title-2cefe5`](#frame-title-2cefe5) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
-| [`scrollable-region-focusable-02d2a3`](#scrollable-region-focusable-02d2a3) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
 | [`link-name-faac6c`](#link-name-faac6c) | WCAG 2.0 A | serious | 1 | 1 | Element is in tab order and does not have accessible text |
 | [`link-name-79a8bc`](#link-name-79a8bc) | WCAG 2.0 A | serious | 1 | 1 | Element is in tab order and does not have accessible text |
-| [`scrollable-region-focusable-9feb03`](#scrollable-region-focusable-9feb03) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-10bdb5`](#scrollable-region-focusable-10bdb5) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-44bee2`](#scrollable-region-focusable-44bee2) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-56a26c`](#scrollable-region-focusable-56a26c) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-aa283e`](#scrollable-region-focusable-aa283e) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-677ae2`](#scrollable-region-focusable-677ae2) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-0af957`](#scrollable-region-focusable-0af957) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-d61978`](#scrollable-region-focusable-d61978) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-b53c42`](#scrollable-region-focusable-b53c42) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-59a47b`](#scrollable-region-focusable-59a47b) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-d28152`](#scrollable-region-focusable-d28152) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-9a0b40`](#scrollable-region-focusable-9a0b40) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-bb382b`](#scrollable-region-focusable-bb382b) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
+| [`scrollable-region-focusable-7bcfa1`](#scrollable-region-focusable-7bcfa1) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
 | [`aria-prohibited-attr-d00141`](#aria-prohibited-attr-d00141) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-568759`](#aria-prohibited-attr-568759) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-d37eaa`](#aria-prohibited-attr-d37eaa) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-515297`](#aria-prohibited-attr-515297) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
-| [`scrollable-region-focusable-8202fb`](#scrollable-region-focusable-8202fb) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
 | [`aria-prohibited-attr-e4daa5`](#aria-prohibited-attr-e4daa5) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-b4c9fd`](#aria-prohibited-attr-b4c9fd) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-b5f629`](#aria-prohibited-attr-b5f629) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-3d36c9`](#aria-prohibited-attr-3d36c9) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-6960fe`](#aria-prohibited-attr-6960fe) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
-| [`scrollable-region-focusable-6e4c77`](#scrollable-region-focusable-6e4c77) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
 | [`link-in-text-block-7b0c90`](#link-in-text-block-7b0c90) | WCAG 2.0 A | serious | 1 | 1 | The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40) |
-| [`scrollable-region-focusable-f571d3`](#scrollable-region-focusable-f571d3) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-c5d074`](#scrollable-region-focusable-c5d074) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-1d2df2`](#scrollable-region-focusable-1d2df2) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-7ebabb`](#scrollable-region-focusable-7ebabb) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-070cea`](#scrollable-region-focusable-070cea) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
 | [`frame-title-02a9a3`](#frame-title-02a9a3) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
 | [`frame-title-d0d12c`](#frame-title-d0d12c) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
 | [`frame-title-d8f635`](#frame-title-d8f635) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
@@ -109,12 +78,6 @@ Results for [quarto.org](https://quarto.org) at commit [`bbc83b99c`](https://git
 | [`frame-title-bf3007`](#frame-title-bf3007) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
 | [`frame-title-542f85`](#frame-title-542f85) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
 | [`frame-title-9d882c`](#frame-title-9d882c) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
-| [`scrollable-region-focusable-b99d66`](#scrollable-region-focusable-b99d66) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-ebcf08`](#scrollable-region-focusable-ebcf08) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-04b933`](#scrollable-region-focusable-04b933) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-7b7154`](#scrollable-region-focusable-7b7154) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`scrollable-region-focusable-5bf272`](#scrollable-region-focusable-5bf272) | WCAG 2.0 A | serious | 1 | 1 | Element should have focusable content |
-| [`meta-viewport-cb66a4`](#meta-viewport-cb66a4) | WCAG 2.0 AA | critical | 39 | 39 | user-scalable=no on &lt;meta&gt; tag disables zooming on mobile devices |
 | [`color-contrast-aef353`](#color-contrast-aef353) | WCAG 2.0 AA | serious | 2 | 22 | #f8f8f8 on #ffffff = 1.06 (needs 4.5:1) |
 | [`color-contrast-78b899`](#color-contrast-78b899) | WCAG 2.0 AA | serious | 2 | 21 | #bbbbbb on #ffffff = 1.91 (needs 4.5:1) |
 | [`color-contrast-0e3605`](#color-contrast-0e3605) | WCAG 2.0 AA | serious | 1 | 15 | #000000 on #151515 = 1.14 (needs 4.5:1) |
@@ -127,7 +90,6 @@ Results for [quarto.org](https://quarto.org) at commit [`bbc83b99c`](https://git
 | [`color-contrast-650337`](#color-contrast-650337) | WCAG 2.0 AA | serious | 1 | 1 | #2a76dd on #bbbbbb = 2.31 (needs 3:1) |
 | [`tabindex-aabcdd`](#tabindex-aabcdd) | Best Practice | serious | 2 | 4 | Element has a tabindex greater than 0 |
 | [`landmark-complementary-is-top-level-be40a0`](#landmark-complementary-is-top-level-be40a0) | Best Practice | moderate | 36 | 36 | The complementary landmark is contained in another landmark. |
-| [`region-f0f230`](#region-f0f230) | Best Practice | moderate | 2 | 2 | Some page content is not contained by landmarks |
 | [`region-4d3a2b`](#region-4d3a2b) | Best Practice | moderate | 2 | 2 | Some page content is not contained by landmarks |
 | [`landmark-no-duplicate-banner-fc5ea1`](#landmark-no-duplicate-banner-fc5ea1) | Best Practice | moderate | 1 | 1 | Document has more than one banner landmark |
 | [`landmark-unique-28ed54`](#landmark-unique-28ed54) | Best Practice | moderate | 1 | 1 | The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable |
@@ -143,6 +105,8 @@ Results for [quarto.org](https://quarto.org) at commit [`bbc83b99c`](https://git
 | [`presentation-role-conflict-fb9721`](#presentation-role-conflict-fb9721) | Best Practice | minor | 1 | 1 | Element is not focusable. |
 | [`presentation-role-conflict-2ffcd8`](#presentation-role-conflict-2ffcd8) | Best Practice | minor | 1 | 1 | Element is not focusable. |
 | [`presentation-role-conflict-236e24`](#presentation-role-conflict-236e24) | Best Practice | minor | 1 | 1 | Element is not focusable. |
+| [`empty-table-header-711a21`](#empty-table-header-711a21) | Best Practice | minor | 1 | 1 | Element does not have text that is visible to screen readers |
+| [`empty-table-header-d23cdc`](#empty-table-header-d23cdc) | Best Practice | minor | 1 | 1 | Element does not have text that is visible to screen readers |
 | [`empty-table-header-4123ba`](#empty-table-header-4123ba) | Best Practice | minor | 1 | 1 | Element does not have text that is visible to screen readers |
 | [`empty-table-header-4d7182`](#empty-table-header-4d7182) | Best Practice | minor | 1 | 1 | Element does not have text that is visible to screen readers |
 
@@ -184,29 +148,29 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="7"]` | `<input type="checkbox" value="7">` |
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="8"]` | `<input type="checkbox" value="8">` |
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="9"]` | `<input type="checkbox" value="9">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="480"]` | `<input type="checkbox" value="480">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="481"]` | `<input type="checkbox" value="481">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="482"]` | `<input type="checkbox" value="482">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="483"]` | `<input type="checkbox" value="483">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="484"]` | `<input type="checkbox" value="484">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="485"]` | `<input type="checkbox" value="485">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="486"]` | `<input type="checkbox" value="486">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="487"]` | `<input type="checkbox" value="487">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="488"]` | `<input type="checkbox" value="488">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="489"]` | `<input type="checkbox" value="489">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="490"]` | `<input type="checkbox" value="490">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="491"]` | `<input type="checkbox" value="491">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="492"]` | `<input type="checkbox" value="492">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="493"]` | `<input type="checkbox" value="493">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="494"]` | `<input type="checkbox" value="494">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="495"]` | `<input type="checkbox" value="495">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="496"]` | `<input type="checkbox" value="496">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="497"]` | `<input type="checkbox" value="497">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="498"]` | `<input type="checkbox" value="498">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `input[value="499"]` | `<input type="checkbox" value="499">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="480"]` | `<input type="checkbox" value="480">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="481"]` | `<input type="checkbox" value="481">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="482"]` | `<input type="checkbox" value="482">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="483"]` | `<input type="checkbox" value="483">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="484"]` | `<input type="checkbox" value="484">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="485"]` | `<input type="checkbox" value="485">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="486"]` | `<input type="checkbox" value="486">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="487"]` | `<input type="checkbox" value="487">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="488"]` | `<input type="checkbox" value="488">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="489"]` | `<input type="checkbox" value="489">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="490"]` | `<input type="checkbox" value="490">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="491"]` | `<input type="checkbox" value="491">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="492"]` | `<input type="checkbox" value="492">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="493"]` | `<input type="checkbox" value="493">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="494"]` | `<input type="checkbox" value="494">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="495"]` | `<input type="checkbox" value="495">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="496"]` | `<input type="checkbox" value="496">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="497"]` | `<input type="checkbox" value="497">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="498"]` | `<input type="checkbox" value="498">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="499"]` | `<input type="checkbox" value="499">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
@@ -351,7 +315,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
 
 </details>
 
@@ -471,285 +435,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr?applica
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/output-formats/html-themes.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.callout-header` | `<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">` |
-
-</details>
-
-#### scrollable-region-focusable-7f835c
-
-<details>
-<summary>Scrollable region must have keyboard access (263 instances on 96 pages)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #cb`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| about.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1" data-filename="Terminal">` |
-| bug-reports.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| bug-reports.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6">` |
-| docs/advanced/environment-vars.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/advanced/quarto-ast.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/advanced/quarto-ast.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/advanced/quarto-execute-info.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/advanced/quarto-execute-info.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/advanced/quarto-execute-info.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6">` |
-| docs/advanced/quarto-execute-info.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/authoring/brand.html | 320x568·dark, 320x568·light | `#cb19` | `<div class="sourceCode" id="cb19" data-filename="_brand.yml">` |
-| docs/authoring/brand.html | 320x568·dark, 320x568·light | `#cb42` | `<div class="sourceCode" id="cb42">` |
-| docs/authoring/brand.html | 320x568·dark, 320x568·light | `#cb44` | `<div class="sourceCode" id="cb44" data-filename="Terminal">` |
-| docs/authoring/citations.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15" data-filename="document.qmd">` |
-| docs/authoring/create-citeable-articles.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/authoring/create-citeable-articles.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10">` |
-| docs/authoring/create-citeable-articles.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode" id="cb11">` |
-| docs/authoring/create-citeable-articles.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/authoring/create-citeable-articles.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/authoring/create-citeable-articles.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/authoring/create-citeable-articles.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5" style="font-size: 0.9em;">` |
-| docs/authoring/cross-references-custom.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2" data-shortcodes="false">` |
-| docs/authoring/cross-references-divs.html | 320x568·dark, 320x568·light | `#cb16` | `<div class="sourceCode" id="cb16" data-shortcodes="false">` |
-| docs/authoring/figures.html | 320x568·dark, 320x568·light | `#cb22` | `<div class="sourceCode" id="cb22">` |
-| docs/authoring/figures.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/authoring/front-matter.html | 320x568·dark, 320x568·light | `#cb14` | `<div class="sourceCode" id="cb14">` |
-| docs/authoring/front-matter.html | 320x568·dark, 320x568·light | `#cb25` | `<div class="sourceCode" id="cb25">` |
-| docs/authoring/front-matter.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5">` |
-| docs/authoring/markdown-basics.html | 320x568·dark, 320x568·light | `#cb47` | `<div class="sourceCode" id="cb47" data-shortcodes="false">` |
-| docs/authoring/notebook-embed.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode" id="cb11" style="whitespace: pre-wrap;">` |
-| docs/authoring/notebook-embed.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode cell-code" id="cb8">` |
-| docs/authoring/notebook-embed.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9" data-filename="penguins.ipynb">` |
-| docs/authoring/penguins.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode cell-code" id="cb2">` |
-| docs/authoring/penguins.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode cell-code" id="cb3">` |
-| docs/authoring/penguins.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode cell-code" id="cb8">` |
-| docs/authoring/tables.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13">` |
-| docs/authoring/tables.html | 320x568·dark, 320x568·light | `#cb25` | `<div class="sourceCode" id="cb25">` |
-| docs/authoring/tables.html | 320x568·dark, 320x568·light | `#cb26` | `<div class="sourceCode" id="cb26">` |
-| docs/authoring/tables.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb28` | `<div class="sourceCode" id="cb28">` |
-| docs/authoring/tables.html | 320x568·dark, 320x568·light | `#cb30` | `<div class="sourceCode" id="cb30">` |
-| docs/authoring/tables.html | 320x568·dark, 320x568·light | `#cb32` | `<div class="sourceCode" id="cb32">` |
-| docs/authoring/variables.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/authoring/videos.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1" data-shortcodes="false">` |
-| docs/authoring/videos.html | 320x568·dark, 320x568·light | `#cb12` | `<div class="sourceCode" id="cb12">` |
-| docs/authoring/videos.html | 320x568·dark, 320x568·light | `#cb14` | `<div class="sourceCode" id="cb14" data-shortcodes="false">` |
-| docs/authoring/videos.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2" data-shortcodes="false">` |
-| docs/authoring/videos.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3" data-shortcodes="false">` |
-| docs/authoring/videos.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4" data-shortcodes="false">` |
-| docs/authoring/videos.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8" data-shortcodes="false">` |
-| docs/authoring/videos.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9" data-shortcodes="false">` |
-| docs/books/book-output.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/computations/julia.html | 320x568·dark, 320x568·light | `#cb25` | `<div class="sourceCode" id="cb25">` |
-| docs/computations/julia.html | 320x568·dark, 320x568·light | `#cb54` | `<div class="sourceCode" id="cb54">` |
-| docs/computations/ojs.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode" id="cb11">` |
-| docs/computations/ojs.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/computations/python.html | 320x568·dark, 320x568·light | `#cb31` | `<div class="sourceCode" id="cb31">` |
-| docs/computations/r.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/computations/r.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/computations/r.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/computations/render-scripts.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode" id="cb11">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb12` | `<div class="sourceCode" id="cb12">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb18` | `<div class="sourceCode" id="cb18">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb20` | `<div class="sourceCode" id="cb20">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb21` | `<div class="sourceCode" id="cb21">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb22` | `<div class="sourceCode" id="cb22">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb23` | `<div class="sourceCode" id="cb23">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb24` | `<div class="sourceCode" id="cb24">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb25` | `<div class="sourceCode" id="cb25">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb27` | `<div class="sourceCode" id="cb27">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb28` | `<div class="sourceCode" id="cb28">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb29` | `<div class="sourceCode" id="cb29">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8">` |
-| docs/dashboards/data-display.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/dashboards/interactivity/shiny-python/execution.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/dashboards/interactivity/shiny-python/execution.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/dashboards/interactivity/shiny-python/index.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/dashboards/interactivity/shiny-python/index.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/dashboards/interactivity/shiny-python/index.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/dashboards/interactivity/shiny-python/index.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/dashboards/interactivity/shiny-python/index.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5">` |
-| docs/dashboards/interactivity/shiny-python/index.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/dashboards/interactivity/shiny-python/index.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8">` |
-| docs/dashboards/interactivity/shiny-python/index.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/dashboards/interactivity/shiny-python/running.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/dashboards/layout.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/dashboards/layout.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13">` |
-| docs/dashboards/layout.html | 320x568·dark, 320x568·light | `#cb14` | `<div class="sourceCode" id="cb14">` |
-| docs/dashboards/layout.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15">` |
-| docs/dashboards/layout.html | 320x568·dark, 320x568·light | `#cb16` | `<div class="sourceCode" id="cb16">` |
-| docs/dashboards/layout.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/dashboards/layout.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/dashboards/layout.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/dashboards/layout.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6">` |
-| docs/dashboards/layout.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/dashboards/layout.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8">` |
-| docs/dashboards/layout.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/dashboards/parameters.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7" data-filename="Terminal">` |
-| docs/dashboards/parameters.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8" data-filename="Terminal">` |
-| docs/dashboards/theming.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/download/index.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/download/release.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/download/tarball.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1" data-filename="Terminal">` |
-| docs/extensions/distributing.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10" data-filename="Terminal">` |
-| docs/extensions/distributing.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7" data-filename="Terminal">` |
-| docs/extensions/distributing.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8" data-filename="Terminal">` |
-| docs/extensions/distributing.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9" data-filename="Terminal">` |
-| docs/extensions/filters.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5">` |
-| docs/extensions/formats.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5">` |
-| docs/extensions/formats.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8" data-filename="_extensions/lexdoc/custom.scss">` |
-| docs/extensions/formats.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9" data-filename="template.qmd">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb12` | `<div class="sourceCode" id="cb12">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb16` | `<div class="sourceCode" id="cb16">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8">` |
-| docs/extensions/lua-api.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/extensions/lua.html | 320x568·dark, 320x568·light | `#cb12` | `<div class="sourceCode" id="cb12" data-filename=".luarc.json">` |
-| docs/extensions/nbfilter.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/extensions/project-types.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6" data-filename="_extension.yml">` |
-| docs/extensions/project-types.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/extensions/project-types.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8">` |
-| docs/extensions/project-types.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13" data-filename="example.qmd">` |
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15" data-filename="_extensions/attribution/attribution.js">` |
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4" data-filename="_extensions/shuffler/shuffler.js">` |
-| docs/extensions/shortcodes.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10" data-filename="pagebreak.lua">` |
-| docs/extensions/shortcodes.html | 320x568·dark, 320x568·light | `#cb12` | `<div class="sourceCode" id="cb12" data-filename="git.lua">` |
-| docs/extensions/shortcodes.html | 320x568·dark, 320x568·light | `#cb14` | `<div class="sourceCode" id="cb14" data-filename="git.lua">` |
-| docs/extensions/shortcodes.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/extensions/shortcodes.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7" data-filename="env.lua">` |
-| docs/get-started/authoring/neovim.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb21` | `<div class="sourceCode" id="cb21">` |
-| docs/get-started/authoring/positron.html | 320x568·dark, 320x568·light | `#cb19` | `<div class="sourceCode" id="cb19">` |
-| docs/get-started/authoring/text-editor.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb21` | `<div class="sourceCode" id="cb21">` |
-| docs/get-started/authoring/vscode.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb21` | `<div class="sourceCode" id="cb21">` |
-| docs/get-started/computations/positron.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/get-started/hello/positron.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/get-started/hello/positron.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6">` |
-| docs/get-started/hello/rstudio.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/get-started/hello/rstudio.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/interactive/index.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode cell-code" id="cb10">` |
-| docs/interactive/ojs/code-reuse.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode cell-code" id="cb3" data-startfrom="31" data-source-offset="-0">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode cell-code" id="cb4" data-startfrom="97" data-source-offset="9">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode cell-code" id="cb7" data-startfrom="139" data-source-offset="9">` |
-| docs/interactive/ojs/examples/github.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode cell-code" id="cb3" data-startfrom="32" data-source-offset="-0">` |
-| docs/interactive/ojs/examples/noaa-co2.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode cell-code" id="cb3" data-startfrom="47" data-source-offset="0">` |
-| docs/interactive/ojs/examples/population.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode cell-code" id="cb1" data-startfrom="13" data-source-offset="0">` |
-| docs/interactive/ojs/examples/sunburst.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode cell-code" id="cb2" data-startfrom="115" data-source-offset="-0">` |
-| docs/interactive/ojs/index.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10">` |
-| docs/interactive/ojs/index.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6">` |
-| docs/interactive/ojs/libraries.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode cell-code" id="cb11" data-startfrom="266" data-source-offset="9">` |
-| docs/interactive/ojs/libraries.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode cell-code" id="cb2" data-startfrom="63" data-source-offset="9">` |
-| docs/interactive/ojs/shiny.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/interactive/shiny/running.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/interactive/shiny/running.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/interactive/shiny/running.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6">` |
-| docs/interactive/widgets/jupyter.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode cell-code" id="cb1">` |
-| docs/interactive/widgets/jupyter.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/journals/formats.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5">` |
-| docs/journals/formats.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7" data-filename="template.qmd">` |
-| docs/journals/templates.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3" data-filename="title.tex">` |
-| docs/manuscripts/authoring/jupyterlab.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15">` |
-| docs/manuscripts/authoring/jupyterlab.html | 320x568·dark, 320x568·light | `#cb16` | `<div class="sourceCode" id="cb16">` |
-| docs/manuscripts/authoring/jupyterlab.html | 320x568·dark, 320x568·light | `#cb17` | `<div class="sourceCode" id="cb17">` |
-| docs/manuscripts/authoring/jupyterlab.html | 320x568·dark, 320x568·light | `#cb34` | `<div class="sourceCode" id="cb34" data-filename="data-screening.ipynb">` |
-| docs/manuscripts/authoring/rstudio.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10">` |
-| docs/manuscripts/authoring/rstudio.html | 320x568·dark, 320x568·light | `#cb27` | `<div class="sourceCode" id="cb27" data-filename="explore-earthquakes.qmd">` |
-| docs/manuscripts/authoring/rstudio.html | 320x568·dark, 320x568·light | `#cb28` | `<div class="sourceCode" id="cb28">` |
-| docs/manuscripts/authoring/vscode.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10">` |
-| docs/manuscripts/authoring/vscode.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode" id="cb11">` |
-| docs/manuscripts/authoring/vscode.html | 320x568·dark, 320x568·light | `#cb12` | `<div class="sourceCode" id="cb12">` |
-| docs/manuscripts/authoring/vscode.html | 320x568·dark, 320x568·light | `#cb29` | `<div class="sourceCode" id="cb29" data-filename="data-screening.qmd">` |
-| docs/manuscripts/authoring/vscode.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/manuscripts/components.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5" data-filename="_quarto.yml">` |
-| docs/output-formats/docusaurus.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15">` |
-| docs/output-formats/docusaurus.html | 320x568·dark, 320x568·light | `#cb16` | `<div class="sourceCode" id="cb16">` |
-| docs/output-formats/gfm.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/output-formats/gfm.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8">` |
-| docs/output-formats/html-basics.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13">` |
-| docs/output-formats/html-basics.html | 320x568·dark, 320x568·light | `#cb26` | `<div class="sourceCode" id="cb26">` |
-| docs/output-formats/html-basics.html | 320x568·dark, 320x568·light | `#cb34` | `<div class="sourceCode" id="cb34">` |
-| docs/output-formats/hugo.html | 320x568·dark, 320x568·light | `#cb17` | `<div class="sourceCode" id="cb17">` |
-| docs/output-formats/hugo.html | 320x568·dark, 320x568·light | `#cb18` | `<div class="sourceCode" id="cb18">` |
-| docs/output-formats/pdf-basics.html | 320x568·dark, 320x568·light | `#cb25` | `<div class="sourceCode" id="cb25">` |
-| docs/output-formats/pdf-basics.html | 320x568·dark, 320x568·light | `#cb27` | `<div class="sourceCode" id="cb27">` |
-| docs/output-formats/typst.html | 320x568·dark, 320x568·light | `#cb21` | `<div class="sourceCode" id="cb21" data-filename="document.qmd">` |
-| docs/prerelease/1.10/index.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/prerelease/1.4/lua_changes.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1">` |
-| docs/prerelease/1.4/lua_changes.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/presentations/revealjs/advanced.html | 320x568·dark, 320x568·light | `#cb19` | `<div class="sourceCode" id="cb19">` |
-| docs/presentations/revealjs/advanced.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#cb35` | `<div class="sourceCode" id="cb35">` |
-| docs/presentations/revealjs/index.html | 320x568·dark, 320x568·light | `#cb27` | `<div class="sourceCode" id="cb27">` |
-| docs/presentations/revealjs/index.html | 320x568·dark, 320x568·light | `#cb33` | `<div class="sourceCode" id="cb33">` |
-| docs/presentations/revealjs/index.html | 320x568·dark, 320x568·light | `#cb35` | `<div class="sourceCode" id="cb35">` |
-| docs/presentations/revealjs/index.html | 320x568·dark, 320x568·light | `#cb36` | `<div class="sourceCode" id="cb36">` |
-| docs/presentations/revealjs/presenting.html | 320x568·dark, 320x568·light | `#cb22` | `<div class="sourceCode" id="cb22">` |
-| docs/projects/binder.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/projects/binder.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/projects/environment.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1" data-filename="_environment">` |
-| docs/projects/environment.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2" data-filename="_environment">` |
-| docs/projects/environment.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6" data-filename="_environment.local">` |
-| docs/projects/environment.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8" data-filename="_environment.local">` |
-| docs/projects/profiles.html | 320x568·dark, 320x568·light | `#cb12` | `<div class="sourceCode" id="cb12" data-filename="Terminal">` |
-| docs/projects/scripts.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode" id="cb11">` |
-| docs/projects/scripts.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/projects/scripts.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8">` |
-| docs/projects/scripts.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/projects/virtual-environments.html | 320x568·dark, 320x568·light | `#cb27` | `<div class="sourceCode" id="cb27">` |
-| docs/projects/virtual-environments.html | 320x568·dark, 320x568·light | `#cb33` | `<div class="sourceCode" id="cb33">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb1` | `<div class="sourceCode" id="cb1" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode" id="cb11" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb12` | `<div class="sourceCode" id="cb12" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb14` | `<div class="sourceCode" id="cb14" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb16` | `<div class="sourceCode" id="cb16" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb17` | `<div class="sourceCode" id="cb17" data-filename="Terminal">` |
-| docs/publishing/ci.html | 320x568·dark, 320x568·light | `#cb18` | `<div class="sourceCode" id="cb18" data-filename="Terminal">` |
-| docs/publishing/confluence.html | 320x568·dark, 320x568·light | `#cb21` | `<div class="sourceCode" id="cb21">` |
-| docs/publishing/confluence.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4" data-filename="Terminal">` |
-| docs/publishing/confluence.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6" data-filename="Terminal">` |
-| docs/publishing/netlify.html | 320x568·dark, 320x568·light | `#cb20` | `<div class="sourceCode" id="cb20" data-filename="Terminal">` |
-| docs/publishing/posit-connect-cloud.html | 320x568·dark, 320x568·light | `#cb3` | `<div class="sourceCode" id="cb3">` |
-| docs/publishing/posit-connect-cloud.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6" data-filename="Terminal">` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10" data-filename=".github/workflows/publish.yml">` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13" data-filename=".github/workflows/publish.yml">` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#cb14` | `<div class="sourceCode" id="cb14" data-filename=".github/workflows/publish.yml">` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15">` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#cb16` | `<div class="sourceCode" id="cb16">` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6" data-filename="Terminal">` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/publishing/rstudio-connect.html | 320x568·dark, 320x568·light | `#cb13` | `<div class="sourceCode" id="cb13" data-filename="_publish.yml">` |
-| docs/publishing/rstudio-connect.html | 320x568·dark, 320x568·light | `#cb14` | `<div class="sourceCode" id="cb14" data-filename="Terminal">` |
-| docs/publishing/rstudio-connect.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/publishing/rstudio-connect.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/tools/rstudio.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5">` |
-| docs/tools/rstudio.html | 320x568·dark, 320x568·light | `#cb7` | `<div class="sourceCode" id="cb7">` |
-| docs/triaging/index.html | 320x568·dark, 320x568·light | `#cb5` | `<div class="sourceCode" id="cb5" data-shortcodes="false">` |
-| docs/triaging/index.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6" data-shortcodes="false">` |
-| docs/troubleshooting/index.html | 320x568·dark, 320x568·light | `#cb2` | `<div class="sourceCode" id="cb2">` |
-| docs/troubleshooting/index.html | 320x568·dark, 320x568·light | `#cb4` | `<div class="sourceCode" id="cb4">` |
-| docs/troubleshooting/index.html | 320x568·dark, 320x568·light | `#cb6` | `<div class="sourceCode" id="cb6">` |
-| docs/troubleshooting/index.html | 320x568·dark, 320x568·light | `#cb8` | `<div class="sourceCode" id="cb8">` |
-| docs/troubleshooting/index.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9">` |
-| docs/websites/website-blog.html | 320x568·dark, 320x568·light | `#cb10` | `<div class="sourceCode" id="cb10">` |
-| docs/websites/website-blog.html | 320x568·dark, 320x568·light | `#cb14` | `<div class="sourceCode" id="cb14">` |
-| docs/websites/website-navigation.html | 320x568·dark, 320x568·light | `#cb36` | `<div class="sourceCode" id="cb36">` |
-| docs/websites/website-tools.html | 320x568·dark, 320x568·light | `#cb11` | `<div class="sourceCode" id="cb11" data-filename="page.qmd">` |
-| docs/websites/website-tools.html | 320x568·dark, 320x568·light | `#cb15` | `<div class="sourceCode" id="cb15">` |
-| docs/websites/website-tools.html | 320x568·dark, 320x568·light | `#cb9` | `<div class="sourceCode" id="cb9" data-filename="page.qmd">` |
 
 </details>
 
@@ -913,35 +598,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusab
 
 </details>
 
-#### scrollable-region-focusable-37ee42
-
-<details>
-<summary>Scrollable region must have keyboard access (13 instances on 7 pages)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/extensions/brand.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(3) > .code-with-filename-file > pre` | `<pre><strong>_extensions/my-brand/_extension.yml</strong></pre>` |
-| docs/extensions/filters.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(10) > .code-with-filename-file > pre` | `<pre><strong>_extensions/fancy-header/fancy-header.lua</strong></pre>` |
-| docs/extensions/filters.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(14) > .code-with-filename-file > pre` | `<pre><strong>_extensions/fancy-header/_extension.yml</strong></pre>` |
-| docs/extensions/filters.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(9) > .code-with-filename-file > pre` | `<pre><strong>_extensions/fancy-header/_extension.yml</strong></pre>` |
-| docs/extensions/formats.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(10) > .code-with-filename-file > pre` | `<pre><strong>_extensions/lexdoc/_extension.yml</strong></pre>` |
-| docs/extensions/formats.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(12) > .code-with-filename-file > pre` | `<pre><strong>_extensions/lexdoc/custom.scss</strong></pre>` |
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(12) > .code-with-filename-file > pre` | `<pre><strong>_extensions/attribution/attribution.js</strong></pre>` |
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(14) > .code-with-filename-file > pre` | `<pre><strong>_extensions/attribution/attribution.css</strong></pre>` |
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(9) > .code-with-filename-file > pre` | `<pre><strong>_extensions/shuffler/_extension.yml</strong></pre>` |
-| docs/extensions/shortcodes.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(10) > .code-with-filename-file > pre` | `<pre><strong>_extensions/shorty/shorty.lua</strong></pre>` |
-| docs/extensions/shortcodes.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(9) > .code-with-filename-file > pre` | `<pre><strong>_extensions/shorty/_extension.yml</strong></pre>` |
-| docs/journals/formats.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(9) > .code-with-filename-file > pre` | `<pre><strong>_extensions/aps/_extension.yml</strong></pre>` |
-| docs/websites/website-drafts.html | 320x568·dark, 320x568·light | `.code-with-filename:nth-child(3) > .code-with-filename-file > pre` | `<pre><strong>posts/post-with-code/index.qmd</strong></pre>` |
-
-</details>
-
 #### frame-title-7be574
 
 <details>
@@ -1017,29 +673,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?appl
 
 </details>
 
-#### scrollable-region-focusable-7bcfa1
-
-<details>
-<summary>Scrollable region must have keyboard access (7 instances on 5 pages)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/computations/julia.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `pre:nth-child(5)` | `<pre>` |
-| docs/interactive/ojs/libraries.html | 320x568·dark, 320x568·light | `pre:nth-child(7)` | `<pre><code>https://cdn.jsdelivr.net/npm/package@version/file</code></pre>` |
-| docs/output-formats/html-themes-more.html | 320x568·dark, 320x568·light | `pre:nth-child(7)` | `<pre>` |
-| docs/output-formats/html-themes-more.html | 320x568·dark, 320x568·light | `pre:nth-child(9)` | `<pre>` |
-| docs/prerelease/1.4/crossref.html | 320x568·dark, 320x568·light | `pre:nth-child(2)` | `<pre><code>div#fig-elephant &gt; figure &gt; figcaption.figure-caption</code></pre>` |
-| docs/prerelease/1.4/crossref.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `pre:nth-child(4)` | `<pre><code>div#fig-elephant &gt; figure.quarto-float.quarto-float-fig &gt; figcaption.quarto-float-caption.quarto-float-fig</code></pre>` |
-| docs/publishing/confluence.html | 320x568·dark, 320x568·light | `pre:nth-child(7)` | `<pre><code>https://domain.atlassian.net/wiki/spaces/ABBR/pages/123456</code></pre>` |
-
-</details>
-
 #### aria-prohibited-attr-cac6c7
 
 <details>
@@ -1100,66 +733,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/summary-name?application=
 | docs/authoring/penguins-preview.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `summary` | `<summary> <svg viewBox="0 0 16 16" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"> <circle r="2" cy="8" cx="2"></circle> <circle r="2" cy="8" cx="8"></circle> <circle r="2" cy="8" cx="14"></circle> </svg></summary>` |
 | docs/authoring/penguins.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `summary` | `<summary> <svg viewBox="0 0 16 16" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"> <circle r="2" cy="8" cx="2"></circle> <circle r="2" cy="8" cx="8"></circle> <circle r="2" cy="8" cx="14"></circle> </svg></summary>` |
 | docs/presentations/revealjs/examples/executable-code-figure-size.html | 1440x900·default, 320x568·default | `summary` | `<summary> <svg viewBox="0 0 16 16" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"> <circle r="2" cy="8" cx="2"></circle> <circle r="2" cy="8" cx="8"></circle> <circle r="2" cy="8" cx="14"></circle> </svg></summary>` |
-
-</details>
-
-#### scrollable-region-focusable-3b5f0f
-
-<details>
-<summary>Scrollable region must have keyboard access (4 instances on 4 pages)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #publish-action > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/publishing/github-pages.html | 320x568·dark, 320x568·light | `#publish-action > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/netlify.html | 320x568·dark, 320x568·light | `#publish-action > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#publish-action > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/rstudio-connect.html | 320x568·dark, 320x568·light | `#publish-action > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-2f9bbd
-
-<details>
-<summary>Scrollable region must have keyboard access (4 instances on 4 pages)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #example-jupyter-with-venv > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/publishing/github-pages.html | 320x568·dark, 320x568·light | `#example-jupyter-with-venv > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/netlify.html | 320x568·dark, 320x568·light | `#example-jupyter-with-venv > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#example-jupyter-with-venv > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/rstudio-connect.html | 320x568·dark, 320x568·light | `#example-jupyter-with-venv > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-c6d335
-
-<details>
-<summary>Scrollable region must have keyboard access (4 instances on 4 pages)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #example-knitr-with-renv > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/publishing/github-pages.html | 320x568·dark, 320x568·light | `#example-knitr-with-renv > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/netlify.html | 320x568·dark, 320x568·light | `#example-knitr-with-renv > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/quarto-pub.html | 320x568·dark, 320x568·light | `#example-knitr-with-renv > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
-| docs/publishing/rstudio-connect.html | 320x568·dark, 320x568·light | `#example-knitr-with-renv > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>.github/workflows/publish.yml</strong></pre>` |
 
 </details>
 
@@ -1280,24 +853,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/link-name?application=axe
 
 </details>
 
-#### scrollable-region-focusable-37e708
-
-<details>
-<summary>Scrollable region must have keyboard access (2 instances on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .cell > .cell-output-stderr.cell-output > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/authoring/penguins-qmd.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.cell:nth-child(2) > .cell-output-stderr.cell-output:nth-child(2) > pre` | `<pre>` |
-| docs/authoring/penguins-qmd.html | 320x568·dark, 320x568·light | `.cell:nth-child(6) > .cell-output-stderr.cell-output > pre` | ``<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range (`geom_point()`).</code></pre>`` |
-
-</details>
-
 #### scrollable-region-focusable-2add8a
 
 <details>
@@ -1406,74 +961,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusab
 
 </details>
 
-#### scrollable-region-focusable-c7adfa
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #missing-fonts-in-typst > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/advanced/typst/brand-yaml.html | 320x568·dark, 320x568·light | `#missing-fonts-in-typst > pre` | `<pre><code>quarto typst fonts --ignore-system-fonts --font-path .quarto/typst-font-cache/</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-39de8a
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .column-page.cell-output-display`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/authoring/article-layout.html | 320x568·dark, 320x568·light | `.column-page.cell-output-display` | `<div class="cell-output-display column-page">` |
-
-</details>
-
-#### scrollable-region-focusable-d747e7
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #multiple-outputs > .cell.page-full.page-columns > .cell-output-display`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/authoring/article-layout.html | 320x568·dark, 320x568·light | `#multiple-outputs > .cell.page-full.page-columns > .cell-output-display` | `<div class="cell-output-display">` |
-
-</details>
-
-#### scrollable-region-focusable-04c370
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #previewing-changes > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/authoring/brand.html | 320x568·dark, 320x568·light | `#previewing-changes > pre` | `<pre><code>Dry run - no changes will be made. Would overwrite: - _brand.yml Would create: - logo.png - fonts/custom-font.woff2 Would remove: - old-logo.png</code></pre>` |
-
-</details>
-
 #### frame-title-2cefe5
 
 <details>
@@ -1488,23 +975,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/frame-title?application=a
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/authoring/code-annotation.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `iframe` | `<iframe class="sourceCode yaml code-with-copy" src="code-annotation-example/revealjs.html"></iframe>` |
-
-</details>
-
-#### scrollable-region-focusable-02d2a3
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #graphviz > .cell[data-layout-align="default"] > .cell-output-display`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/authoring/diagrams.html | 320x568·dark, 320x568·light | `#graphviz > .cell[data-layout-align="default"] > .cell-output-display` | `<div class="cell-output-display">` |
 
 </details>
 
@@ -1542,12 +1012,12 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/link-name?application=axe
 
 </details>
 
-#### scrollable-region-focusable-9feb03
+#### scrollable-region-focusable-7bcfa1
 
 <details>
 <summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
 
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .cell-output-stderr.cell-output > pre`
+**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: pre`
 
 **Problem:** Element should have focusable content
 
@@ -1555,211 +1025,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusab
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/authoring/penguins-qmd.html | 320x568·dark, 320x568·light | `.cell-output-stderr.cell-output:nth-child(4) > pre` | `<pre><code> Attaching package: 'palmerpenguins' The following objects are masked from 'package:datasets': penguins, penguins_raw</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-10bdb5
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #status > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/computations/julia.html | 320x568·dark, 320x568·light | `#status > pre` | `<pre>` |
-
-</details>
-
-#### scrollable-region-focusable-44bee2
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #close > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/computations/julia.html | 320x568·dark, 320x568·light | `#close > pre:nth-child(3)` | `<pre>` |
-
-</details>
-
-#### scrollable-region-focusable-56a26c
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #stop > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/computations/julia.html | 320x568·dark, 320x568·light | `#stop > pre` | `<pre>` |
-
-</details>
-
-#### scrollable-region-focusable-aa283e
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #contents-of-brand-extensions > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/extensions/brand.html | 320x568·dark, 320x568·light | `#contents-of-brand-extensions > .code-with-filename:nth-child(4) > .code-with-filename-file > pre` | `<pre><strong>_extensions/my-brand/brand.yml</strong></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-677ae2
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #contents-of-engine-extensions > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/extensions/engine.html | 320x568·dark, 320x568·light | `#contents-of-engine-extensions > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>_extensions/my-language-engine/_extension.yml</strong></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-0af957
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #overview > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/extensions/filters.html | 320x568·dark, 320x568·light | `#overview > pre` | `<pre><code>INPUT --reader--&gt; AST --filter--&gt; AST --writer--&gt; OUTPUT</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-d61978
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #contents-of-metadata-extensions > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/extensions/metadata.html | 320x568·dark, 320x568·light | `#contents-of-metadata-extensions > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>_extensions/my-prerender-scripts/_extension.yml</strong></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-b53c42
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #project-type-extension > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/extensions/project-types.html | 320x568·dark, 320x568·light | `#project-type-extension > .code-with-filename > .code-with-filename-file > pre` | `<pre><strong>_extensions/lexdocs/_extension.yml</strong></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-59a47b
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #quick-start > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `#quick-start > .code-with-filename:nth-child(10) > .code-with-filename-file > pre` | `<pre><strong>_extensions/shuffler/shuffler.js</strong></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-d28152
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #example-attribution > .code-with-filename > .code-with-filename-file > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/extensions/revealjs.html | 320x568·dark, 320x568·light | `#example-attribution > .code-with-filename:nth-child(10) > .code-with-filename-file > pre` | `<pre><strong>_extensions/attribution/_extension.yml</strong></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-9a0b40
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #running-cells > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/get-started/hello/neovim.html | 320x568·dark, 320x568·light | `#running-cells > pre` | `<pre><code>map ctrl+shift+enter no_op map shift+enter send_text all \x1b[13;2u map ctrl+enter send_text all \x1b[13;5u</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-bb382b
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .panel-fill.cell > .cell-output.cell-output-display`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/index.html | 320x568·dark, 320x568·light | `.panel-fill.cell > .cell-output.cell-output-display` | `<div class="cell-output cell-output-display">` |
+| docs/computations/julia.html | 1440x900·light | `pre:nth-child(5)` | `<pre>` |
 
 </details>
 
@@ -1828,23 +1094,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?appl
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/interactive/ojs/libraries.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `g[aria-label="rule"]` | `<g aria-label="rule" transform="translate(0,0.5)"><g stroke="currentColor" transform="translate(0,0)"><line x1="40" x2="600" y1="186" y2="186"></line></g><g stroke="currentColor" transform="translate(0,184)"><line x1="40" x2="600" y1="186" y2="186"></line></g></g>` |
-
-</details>
-
-#### scrollable-region-focusable-8202fb
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .ojs`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/ojs/libraries.html | 320x568·dark, 320x568·light | `.ojs` | `<pre class="ojs"><code>Plot = import("https://cdn.jsdelivr.net/npm/@observablehq/plot/+esm")</code></pre>` |
 
 </details>
 
@@ -1933,23 +1182,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?appl
 
 </details>
 
-#### scrollable-region-focusable-6e4c77
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .cell-output-stderr > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/widgets/htmlwidgets.html | 320x568·dark, 320x568·light | `.cell-output-stderr > pre` | `<pre><code>Warning: package 'leaflet' was built under R version 4.1.2</code></pre>` |
-
-</details>
-
 #### link-in-text-block-7b0c90
 
 <details>
@@ -1964,91 +1196,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?applic
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/interactive/widgets/jupyter.html | 1440x900·light, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
-
-</details>
-
-#### scrollable-region-focusable-f571d3
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #mode-specific-content > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/output-formats/html-themes.html | 320x568·dark, 320x568·light | `#mode-specific-content > pre` | `<pre><code>::: {.light-content} This text will be shown in light mode. ::: ::: {.dark-content} This text will be shown in dark mode. :::</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-c5d074
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #sec-docx-create-template > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/output-formats/ms-word-templates.html | 320x568·dark, 320x568·light | `#sec-docx-create-template > pre` | `<pre><code>$ quarto pandoc -o custom-reference-doc.docx \ --print-default-data-file reference.docx</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-1d2df2
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .callout-body-container > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/prerelease/1.3/tables.html | 320x568·dark, 320x568·light | `.callout-body-container > pre` | `<pre><code>&lt;table data-quarto-disable-processing="true"&gt; ... &lt;/table&gt;</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-7ebabb
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #bootstrap-classes-can-be-added-to-tables > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/prerelease/1.3/tables.html | 320x568·dark, 320x568·light | `#bootstrap-classes-can-be-added-to-tables > pre` | `<pre><code>\| fruit \| price \| \|--------\|--------\| \| apple \| 2.05 \| \| pear \| 1.37 \| \| orange \| 3.09 \| : Fruit prices {.striped .hover}</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-070cea
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #embedded-markdown-content-can-be-specified > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/prerelease/1.3/tables.html | 320x568·dark, 320x568·light | `#embedded-markdown-content-can-be-specified > pre` | `<pre>` |
 
 </details>
 
@@ -2341,146 +1488,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/frame-title?application=a
 
 </details>
 
-#### scrollable-region-focusable-b99d66
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #selecting-destination > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/publishing/confluence.html | 320x568·dark, 320x568·light | `#selecting-destination > pre:nth-child(5)` | `<pre><code>https://domain.atlassian.net/wiki/spaces/ABBR</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-ebcf08
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #publishing-workflow > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/publishing/confluence.html | 320x568·dark, 320x568·light | `#publishing-workflow > pre` | `<pre><code>ERROR: API Error: 404 - Not Found</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-04b933
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #running-code-cells > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/tools/neovim.html | 320x568·dark, 320x568·light | `#running-code-cells > pre` | `<pre><code>map ctrl+shift+enter no_op map shift+enter send_text all \x1b[13;2u map ctrl+enter send_text all \x1b[13;5u</code></pre>` |
-
-</details>
-
-#### scrollable-region-focusable-7b7154
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: #check-the-version-of-quarto-and-its-dependencies > pre`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/troubleshooting/index.html | 320x568·dark, 320x568·light | `#check-the-version-of-quarto-and-its-dependencies > pre` | `<pre>` |
-
-</details>
-
-#### scrollable-region-focusable-5bf272
-
-<details>
-<summary>Scrollable region must have keyboard access (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (2.1.1, 2.1.3) · **Impact:** serious · **Signature:** `scrollable-region-focusable :: .ejs`
-
-**Problem:** Element should have focusable content
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/websites/website-listings-custom.html | 320x568·dark, 320x568·light | `.ejs` | `<pre class="ejs"><code>HTML escaped value: &lt;%- value %&gt; HTML unescaped value: &lt;%= value %&gt;</code></pre>` |
-
-</details>
-
-#### meta-viewport-cb66a4
-
-<details>
-<summary>Zooming and scaling must not be disabled (39 instances on 39 pages)</summary>
-
-**Standard:** WCAG 2.0 AA (1.4.4) · **Impact:** critical · **Signature:** `meta-viewport :: meta`
-
-**Problem:** user-scalable=no on &lt;meta&gt; tag disables zooming on mobile devices
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/authoring/code-annotation-example/revealjs.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/index.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/absolute.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/auto-animate-code.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/auto-animate-movement.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/auto-animate-stack.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/auto-animate.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/fragments-custom.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/fragments-nested.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/fragments.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/stack.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/demo/mini/zoom.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/background-color.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/background-gradient.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/background-no-title.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/code-echo.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/columns.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/creating-slides-1.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/creating-slides-2.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/creating-slides-3.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/executable-code-figure-size.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/footer-and-logo.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/image-background.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/incremental-lists-1.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/incremental-lists-2.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/incremental-lists-3.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/incremental-pause.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/index.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/line-highlighting-1.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/line-highlighting-2.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/line-highlighting-3.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/line-highlighting-4.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/no-footer-on-a-slide.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/per-slide-footer.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/scrollable-and-smaller.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/scrollable.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/slide-with-speaker-notes.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/smaller.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-| docs/presentations/revealjs/examples/tabset.html | 1440x900·default, 320x568·default | `meta[name="viewport"]` | `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">` |
-
-</details>
-
 #### color-contrast-aef353
 
 <details>
@@ -2621,7 +1628,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?applicatio
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 320x568·dark | `.leaflet-control-attribution` | `<div class="leaflet-control-attribution leaflet-control">` |
 
 </details>
@@ -2639,7 +1646,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?applicatio
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 320x568·dark | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 
 </details>
@@ -2785,24 +1792,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is
 
 </details>
 
-#### region-f0f230
-
-<details>
-<summary>All page content should be contained by landmarks (2 instances on 2 pages)</summary>
-
-**Standard:** Best Practice · **Impact:** moderate · **Signature:** `region :: #quarto-embed-header`
-
-**Problem:** Some page content is not contained by landmarks
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/region?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/authoring/penguins-preview.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#quarto-embed-header` | `<div id="quarto-embed-header" class="headroom fixed-top bg-primary headroom--top headroom--not-bottom">` |
-| docs/authoring/penguins-qmd.embed-preview.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#quarto-embed-header` | `<div id="quarto-embed-header" class="headroom fixed-top bg-primary headroom--top headroom--not-bottom">` |
-
-</details>
-
 #### region-4d3a2b
 
 <details>
@@ -2885,7 +1874,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/presentation-role-conflic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/htmlwidgets.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="http://cdn.leafletjs.com/leaflet/v1.3.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(394px, 139px, 0px); z-index: 139;">` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/presentations/revealjs/demo/index.html | 320x568·default | `.leaflet-marker-icon` | `<img src="https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(480px, 240px, 0px); z-index: 240;">` |
@@ -2924,7 +1913,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?applica
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 
 </details>
@@ -2978,7 +1967,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?applic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/authoring/article-layout.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.column-page.cell-output-display > .table-sm.table-striped.small > thead > .header > th:nth-child(1)` | `<th style="text-align: left;"></th>` |
+| docs/authoring/article-layout.html | 1440x900·dark, 1440x900·light | `.column-page.cell-output-display > .table-sm.table-striped.small > thead > .header > th:nth-child(1)` | `<th style="text-align: left;"></th>` |
 
 </details>
 
@@ -3012,7 +2001,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?applic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/authoring/article-layout.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#multiple-outputs > .cell.page-full.page-columns > .cell-output-display > .table-sm.table-striped.small > thead > .header > th:nth-child(1)` | `<th style="text-align: left;"></th>` |
+| docs/authoring/article-layout.html | 1440x900·dark, 1440x900·light | `#multiple-outputs > .cell.page-full.page-columns > .cell-output-display > .table-sm.table-striped.small > thead > .header > th:nth-child(1)` | `<th style="text-align: left;"></th>` |
 
 </details>
 
@@ -3067,6 +2056,40 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/presentation-role-conflic
 
 </details>
 
+#### empty-table-header-711a21
+
+<details>
+<summary>Table header text should not be empty (1 instance on 1 page)</summary>
+
+**Standard:** Best Practice · **Impact:** minor · **Signature:** `empty-table-header :: #page-column > .cell.page-full.page-columns > div[role="group"][aria-label="Scrollable output"][data-quarto-scrollable=""] > .table-sm.table-striped.small > thead > .header > th`
+
+**Problem:** Element does not have text that is visible to screen readers
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/authoring/article-layout.html | 320x568·dark, 320x568·light | `#page-column > .cell.page-full.page-columns > div[role="group"][aria-label="Scrollable output"][data-quarto-scrollable=""] > .table-sm.table-striped.small > thead > .header > th:nth-child(1)` | `<th style="text-align: left;"></th>` |
+
+</details>
+
+#### empty-table-header-d23cdc
+
+<details>
+<summary>Table header text should not be empty (1 instance on 1 page)</summary>
+
+**Standard:** Best Practice · **Impact:** minor · **Signature:** `empty-table-header :: #multiple-outputs > .cell.page-full.page-columns > div[role="group"][aria-label="Scrollable output"][data-quarto-scrollable=""] > .table-sm.table-striped.small > thead > .header > th`
+
+**Problem:** Element does not have text that is visible to screen readers
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/authoring/article-layout.html | 320x568·dark, 320x568·light | `#multiple-outputs > .cell.page-full.page-columns > div[role="group"][aria-label="Scrollable output"][data-quarto-scrollable=""] > .table-sm.table-striped.small > thead > .header > th:nth-child(1)` | `<th style="text-align: left;"></th>` |
+
+</details>
+
 #### empty-table-header-4123ba
 
 <details>
@@ -3080,7 +2103,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?applic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/ojs/data-sources.html | 1440x900·dark, 320x568·dark, 320x568·light | `#oi-3a86ea-1 > table > thead > tr > th:nth-child(1)` | `<th><input type="checkbox"></th>` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `#oi-3a86ea-1 > table > thead > tr > th:nth-child(1)` | `<th><input type="checkbox"></th>` |
 
 </details>
 
