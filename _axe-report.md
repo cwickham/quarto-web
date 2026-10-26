@@ -1,8 +1,8 @@
-Results for [quarto.org](https://quarto.org) at commit [`f5d84db31`](https://github.com/quarto-dev/quarto-web/tree/f5d84db319c988cc0c01da0b1646aa2dbe68fcde), scanned October 19, 2026.
+Results for [quarto.org](https://quarto.org) at commit [`440eefecf`](https://github.com/quarto-dev/quarto-web/tree/440eefecfc21e5d2a4aa402545baa808a49fdd41), scanned October 26, 2026.
 
 # axe site audit
 
-372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.11.6 · generated 2026-10-19T11:51:16.532Z
+372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.11.6 · generated 2026-10-26T12:04:34.673Z
 
 > **Partial scan** (`--exclude docs/get-started/*/index.html,docs/manuscripts/authoring/index.html`) — counts describe this subset, not the whole site. A one-page rescan proves an instance is gone, not that the finding is fixed on other pages.
 
@@ -41,6 +41,7 @@ Results for [quarto.org](https://quarto.org) at commit [`f5d84db31`](https://git
 | [`frame-title-cb63be`](#frame-title-cb63be) | WCAG 2.0 A | serious | 1 | 4 | Element has no title attribute |
 | [`frame-title-7513ef`](#frame-title-7513ef) | WCAG 2.0 A | serious | 1 | 3 | Element has no title attribute |
 | [`link-name-a6cfcf`](#link-name-a6cfcf) | WCAG 2.0 A | serious | 2 | 2 | Element is in tab order and does not have accessible text |
+| [`link-in-text-block-7b0c90`](#link-in-text-block-7b0c90) | WCAG 2.0 A | serious | 2 | 2 | The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40) |
 | [`scrollable-region-focusable-2add8a`](#scrollable-region-focusable-2add8a) | WCAG 2.0 A | serious | 1 | 2 | Element should have focusable content |
 | [`aria-prohibited-attr-f1d7f8`](#aria-prohibited-attr-f1d7f8) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-3d5831`](#aria-prohibited-attr-3d5831) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
@@ -60,7 +61,6 @@ Results for [quarto.org](https://quarto.org) at commit [`f5d84db31`](https://git
 | [`aria-prohibited-attr-b5f629`](#aria-prohibited-attr-b5f629) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-3d36c9`](#aria-prohibited-attr-3d36c9) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-6960fe`](#aria-prohibited-attr-6960fe) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
-| [`link-in-text-block-7b0c90`](#link-in-text-block-7b0c90) | WCAG 2.0 A | serious | 1 | 1 | The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40) |
 | [`frame-title-02a9a3`](#frame-title-02a9a3) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
 | [`frame-title-d0d12c`](#frame-title-d0d12c) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
 | [`frame-title-d8f635`](#frame-title-d8f635) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
@@ -148,29 +148,29 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="7"]` | `<input type="checkbox" value="7">` |
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="8"]` | `<input type="checkbox" value="8">` |
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="9"]` | `<input type="checkbox" value="9">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="480"]` | `<input type="checkbox" value="480">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="481"]` | `<input type="checkbox" value="481">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="482"]` | `<input type="checkbox" value="482">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="483"]` | `<input type="checkbox" value="483">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="484"]` | `<input type="checkbox" value="484">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="485"]` | `<input type="checkbox" value="485">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="486"]` | `<input type="checkbox" value="486">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="487"]` | `<input type="checkbox" value="487">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="488"]` | `<input type="checkbox" value="488">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="489"]` | `<input type="checkbox" value="489">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="490"]` | `<input type="checkbox" value="490">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="491"]` | `<input type="checkbox" value="491">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="492"]` | `<input type="checkbox" value="492">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="493"]` | `<input type="checkbox" value="493">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="494"]` | `<input type="checkbox" value="494">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="495"]` | `<input type="checkbox" value="495">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="496"]` | `<input type="checkbox" value="496">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="497"]` | `<input type="checkbox" value="497">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="498"]` | `<input type="checkbox" value="498">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="499"]` | `<input type="checkbox" value="499">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="477"]` | `<input type="checkbox" value="477">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="478"]` | `<input type="checkbox" value="478">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="479"]` | `<input type="checkbox" value="479">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="480"]` | `<input type="checkbox" value="480">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="481"]` | `<input type="checkbox" value="481">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="482"]` | `<input type="checkbox" value="482">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="483"]` | `<input type="checkbox" value="483">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="484"]` | `<input type="checkbox" value="484">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="485"]` | `<input type="checkbox" value="485">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="486"]` | `<input type="checkbox" value="486">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="487"]` | `<input type="checkbox" value="487">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="488"]` | `<input type="checkbox" value="488">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="489"]` | `<input type="checkbox" value="489">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="490"]` | `<input type="checkbox" value="490">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="491"]` | `<input type="checkbox" value="491">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="492"]` | `<input type="checkbox" value="492">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="493"]` | `<input type="checkbox" value="493">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="494"]` | `<input type="checkbox" value="494">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="495"]` | `<input type="checkbox" value="495">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="496"]` | `<input type="checkbox" value="496">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="497"]` | `<input type="checkbox" value="497">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="498"]` | `<input type="checkbox" value="498">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `input[value="499"]` | `<input type="checkbox" value="499">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
@@ -315,7 +315,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `th:nth-child(1) > input` | `<input type="checkbox">` |
 
 </details>
 
@@ -853,6 +853,24 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/link-name?application=axe
 
 </details>
 
+#### link-in-text-block-7b0c90
+
+<details>
+<summary>Links must be distinguishable without relying on color (2 instances on 2 pages)</summary>
+
+**Standard:** WCAG 2.0 A (1.4.1) · **Impact:** serious · **Signature:** `link-in-text-block :: a`
+
+**Problem:** The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40)
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/interactive/index.html | 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+| docs/interactive/widgets/jupyter.html | 1440x900·light, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+
+</details>
+
 #### scrollable-region-focusable-2add8a
 
 <details>
@@ -1179,23 +1197,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?appl
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/interactive/ojs/ojs-cells.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `g[aria-label="tick"]` | `<g aria-label="tick" transform="translate(0.5,0)">` |
-
-</details>
-
-#### link-in-text-block-7b0c90
-
-<details>
-<summary>Links must be distinguishable without relying on color (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (1.4.1) · **Impact:** serious · **Signature:** `link-in-text-block :: a`
-
-**Problem:** The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40)
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/widgets/jupyter.html | 1440x900·light, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 
 </details>
 
@@ -1646,7 +1647,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?applicatio
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 
 </details>
@@ -1874,7 +1875,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/presentation-role-conflic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/htmlwidgets.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="http://cdn.leafletjs.com/leaflet/v1.3.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(394px, 139px, 0px); z-index: 139;">` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/presentations/revealjs/demo/index.html | 320x568·default | `.leaflet-marker-icon` | `<img src="https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(480px, 240px, 0px); z-index: 240;">` |
@@ -1913,7 +1914,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?applica
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 
 </details>
@@ -2103,7 +2104,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?applic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `#oi-3a86ea-1 > table > thead > tr > th:nth-child(1)` | `<th><input type="checkbox"></th>` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark | `#oi-3a86ea-1 > table > thead > tr > th:nth-child(1)` | `<th><input type="checkbox"></th>` |
 
 </details>
 
