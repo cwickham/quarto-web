@@ -1,29 +1,29 @@
-Results for [quarto.org](https://quarto.org) at commit [`817ae130c`](https://github.com/quarto-dev/quarto-web/tree/817ae130ccdddedb399769531611036e9b126c3f), scanned November 9, 2026.
+Results for [quarto.org](https://quarto.org) at commit [`619689b53`](https://github.com/quarto-dev/quarto-web/tree/619689b537e83cfd1071b69a5f95bb12a595435d), scanned November 16, 2026.
 
 # axe site audit
 
-372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.12.1 · generated 2026-11-09T14:51:51.045Z
+372 pages · 1410/1410 cells ok · axe-core 4.10.3 · Quarto 1.12.2 · generated 2026-11-16T14:30:35.019Z
 
 > **Partial scan** (`--exclude docs/get-started/*/index.html,docs/manuscripts/authoring/index.html`) — counts describe this subset, not the whole site. A one-page rescan proves an instance is gone, not that the finding is fixed on other pages.
 
-**95 new findings**. A finding on many pages usually repeats from a shared source — fixing it once fixes them all.
+**96 new findings**. A finding on many pages usually repeats from a shared source — fixing it once fixes them all.
 
 ## New findings
 
 | id | standard | impact | pages | instances | detail |
 |---|---|---|---:|---:|---|
-| [`label-e931f5`](#label-e931f5) | WCAG 2.0 A | critical | 2 | 46 | Element does not have an implicit (wrapped) &lt;label&gt; |
+| [`label-e931f5`](#label-e931f5) | WCAG 2.0 A | critical | 3 | 69 | Element does not have an implicit (wrapped) &lt;label&gt; |
 | [`aria-allowed-attr-8b2e6a`](#aria-allowed-attr-8b2e6a) | WCAG 2.0 A | critical | 7 | 8 | ARIA attribute is not allowed: aria-expanded="false" |
 | [`label-ab5f69`](#label-ab5f69) | WCAG 2.0 A | critical | 6 | 6 | Element does not have an implicit (wrapped) &lt;label&gt; |
 | [`aria-allowed-attr-de1fc3`](#aria-allowed-attr-de1fc3) | WCAG 2.0 A | critical | 4 | 4 | ARIA attribute is not allowed: aria-expanded="false" |
 | [`label-abe29f`](#label-abe29f) | WCAG 2.0 A | critical | 1 | 3 | Element does not have an implicit (wrapped) &lt;label&gt; |
 | [`label-3c2086`](#label-3c2086) | WCAG 2.0 A | critical | 1 | 3 | Element does not have an implicit (wrapped) &lt;label&gt; |
+| [`label-97e48d`](#label-97e48d) | WCAG 2.0 A | critical | 2 | 2 | Element does not have an implicit (wrapped) &lt;label&gt; |
 | [`aria-required-parent-2a955c`](#aria-required-parent-2a955c) | WCAG 2.0 A | critical | 1 | 1 | Required ARIA parent role not present: list |
 | [`image-alt-299f15`](#image-alt-299f15) | WCAG 2.0 A | critical | 1 | 1 | Element does not have an alt attribute |
 | [`image-alt-54f051`](#image-alt-54f051) | WCAG 2.0 A | critical | 1 | 1 | Element does not have an alt attribute |
 | [`image-alt-109037`](#image-alt-109037) | WCAG 2.0 A | critical | 1 | 1 | Element does not have an alt attribute |
 | [`image-alt-4d0f7b`](#image-alt-4d0f7b) | WCAG 2.0 A | critical | 1 | 1 | Element does not have an alt attribute |
-| [`label-97e48d`](#label-97e48d) | WCAG 2.0 A | critical | 1 | 1 | Element does not have an implicit (wrapped) &lt;label&gt; |
 | [`label-056181`](#label-056181) | WCAG 2.0 A | critical | 1 | 1 | Element does not have an implicit (wrapped) &lt;label&gt; |
 | [`aria-allowed-attr-3b0a3f`](#aria-allowed-attr-3b0a3f) | WCAG 2.0 A | critical | 1 | 1 | ARIA attribute is not allowed: aria-expanded="false" |
 | [`aria-prohibited-attr-08001a`](#aria-prohibited-attr-08001a) | WCAG 2.0 A | serious | 4 | 57 | aria-label attribute cannot be used on a a with no valid role attribute. |
@@ -41,7 +41,6 @@ Results for [quarto.org](https://quarto.org) at commit [`817ae130c`](https://git
 | [`frame-title-cb63be`](#frame-title-cb63be) | WCAG 2.0 A | serious | 1 | 4 | Element has no title attribute |
 | [`frame-title-7513ef`](#frame-title-7513ef) | WCAG 2.0 A | serious | 1 | 3 | Element has no title attribute |
 | [`link-name-a6cfcf`](#link-name-a6cfcf) | WCAG 2.0 A | serious | 2 | 2 | Element is in tab order and does not have accessible text |
-| [`link-in-text-block-7b0c90`](#link-in-text-block-7b0c90) | WCAG 2.0 A | serious | 2 | 2 | The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40) |
 | [`scrollable-region-focusable-2add8a`](#scrollable-region-focusable-2add8a) | WCAG 2.0 A | serious | 1 | 2 | Element should have focusable content |
 | [`aria-prohibited-attr-f1d7f8`](#aria-prohibited-attr-f1d7f8) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-3d5831`](#aria-prohibited-attr-3d5831) | WCAG 2.0 A | serious | 1 | 2 | aria-label attribute cannot be used on a g with no valid role attribute. |
@@ -61,6 +60,7 @@ Results for [quarto.org](https://quarto.org) at commit [`817ae130c`](https://git
 | [`aria-prohibited-attr-b5f629`](#aria-prohibited-attr-b5f629) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-3d36c9`](#aria-prohibited-attr-3d36c9) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
 | [`aria-prohibited-attr-6960fe`](#aria-prohibited-attr-6960fe) | WCAG 2.0 A | serious | 1 | 1 | aria-label attribute cannot be used on a g with no valid role attribute. |
+| [`link-in-text-block-7b0c90`](#link-in-text-block-7b0c90) | WCAG 2.0 A | serious | 1 | 1 | The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40) |
 | [`frame-title-02a9a3`](#frame-title-02a9a3) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
 | [`frame-title-d0d12c`](#frame-title-d0d12c) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
 | [`frame-title-d8f635`](#frame-title-d8f635) | WCAG 2.0 A | serious | 1 | 1 | Element has no title attribute |
@@ -106,6 +106,7 @@ Results for [quarto.org](https://quarto.org) at commit [`817ae130c`](https://git
 | [`presentation-role-conflict-236e24`](#presentation-role-conflict-236e24) | Best Practice | minor | 1 | 1 | Element is not focusable. |
 | [`empty-table-header-711a21`](#empty-table-header-711a21) | Best Practice | minor | 1 | 1 | Element does not have text that is visible to screen readers |
 | [`empty-table-header-d23cdc`](#empty-table-header-d23cdc) | Best Practice | minor | 1 | 1 | Element does not have text that is visible to screen readers |
+| [`empty-table-header-4123ba`](#empty-table-header-4123ba) | Best Practice | minor | 1 | 1 | Element does not have text that is visible to screen readers |
 | [`empty-table-header-4d7182`](#empty-table-header-4d7182) | Best Practice | minor | 1 | 1 | Element does not have text that is visible to screen readers |
 
 ### Occurrences
@@ -113,7 +114,7 @@ Results for [quarto.org](https://quarto.org) at commit [`817ae130c`](https://git
 #### label-e931f5
 
 <details>
-<summary>Form elements must have labels (46 instances on 2 pages)</summary>
+<summary>Form elements must have labels (69 instances on 3 pages)</summary>
 
 **Standard:** WCAG 2.0 A (4.1.2) · **Impact:** critical · **Signature:** `label :: input[value="*"]`
 
@@ -146,6 +147,29 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="7"]` | `<input type="checkbox" value="7">` |
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="8"]` | `<input type="checkbox" value="8">` |
 | docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="9"]` | `<input type="checkbox" value="9">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="480"]` | `<input type="checkbox" value="480">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="481"]` | `<input type="checkbox" value="481">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="482"]` | `<input type="checkbox" value="482">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="483"]` | `<input type="checkbox" value="483">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="484"]` | `<input type="checkbox" value="484">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="485"]` | `<input type="checkbox" value="485">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="486"]` | `<input type="checkbox" value="486">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="487"]` | `<input type="checkbox" value="487">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="488"]` | `<input type="checkbox" value="488">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="489"]` | `<input type="checkbox" value="489">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="490"]` | `<input type="checkbox" value="490">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="491"]` | `<input type="checkbox" value="491">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="492"]` | `<input type="checkbox" value="492">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="493"]` | `<input type="checkbox" value="493">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="494"]` | `<input type="checkbox" value="494">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="495"]` | `<input type="checkbox" value="495">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="496"]` | `<input type="checkbox" value="496">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="497"]` | `<input type="checkbox" value="497">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="498"]` | `<input type="checkbox" value="498">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `input[value="499"]` | `<input type="checkbox" value="499">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="477"]` | `<input type="checkbox" value="477">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="478"]` | `<input type="checkbox" value="478">` |
 | docs/interactive/ojs/examples/github.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `input[value="479"]` | `<input type="checkbox" value="479">` |
@@ -276,6 +300,24 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
 
 </details>
 
+#### label-97e48d
+
+<details>
+<summary>Form elements must have labels (2 instances on 2 pages)</summary>
+
+**Standard:** WCAG 2.0 A (4.1.2) · **Impact:** critical · **Signature:** `label :: th > input`
+
+**Problem:** Element does not have an implicit (wrapped) &lt;label&gt;
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
+
+</details>
+
 #### aria-required-parent-2a955c
 
 <details>
@@ -358,23 +400,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axe
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/authoring/placeholder.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.quarto-layout-cell > p > .img-fluid` | `<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aCA9ICI0MDAiIGhlaWdodCA9ICIyMDAiIHhtbG5zID0gImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94ID0gIjAgMCA0MDAgMjAwIj48cmVjdCB3aWR0aCA9ICI0MDAiIGhlaWdodCA9ICIyMDAiIGZpbGwgPSAiI2RkZCIgLz48dGV4dCB4ID0gIjUwJSIgeSA9ICI1MCUiIGZvbnQtZmFtaWx5ID0gInNhbnMtc2VyaWYiIGZvbnQtc2l6ZSA9ICIyMCIgZmlsbCA9ICIjMDAwIiB0ZXh0LWFuY2hvciA9ICJtaWRkbGUiPjQwMCB4IDIwMDwvdGV4dD48L3N2` |
-
-</details>
-
-#### label-97e48d
-
-<details>
-<summary>Form elements must have labels (1 instance on 1 page)</summary>
-
-**Standard:** WCAG 2.0 A (4.1.2) · **Impact:** critical · **Signature:** `label :: th > input`
-
-**Problem:** Element does not have an implicit (wrapped) &lt;label&gt;
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/ojs/code-reuse.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `th:nth-child(1) > input` | `<input type="checkbox">` |
 
 </details>
 
@@ -827,24 +852,6 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/link-name?application=axe
 
 </details>
 
-#### link-in-text-block-7b0c90
-
-<details>
-<summary>Links must be distinguishable without relying on color (2 instances on 2 pages)</summary>
-
-**Standard:** WCAG 2.0 A (1.4.1) · **Impact:** serious · **Signature:** `link-in-text-block :: a`
-
-**Problem:** The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40)
-
-Reference: <https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI>
-
-| page | cells (width·mode) | selector | element |
-|---|---|---|---|
-| docs/interactive/index.html | 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
-| docs/interactive/widgets/jupyter.html | 1440x900·light, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
-
-</details>
-
 #### scrollable-region-focusable-2add8a
 
 <details>
@@ -1171,6 +1178,23 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr?appl
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/interactive/ojs/ojs-cells.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `g[aria-label="tick"]` | `<g aria-label="tick" transform="translate(0.5,0)">` |
+
+</details>
+
+#### link-in-text-block-7b0c90
+
+<details>
+<summary>Links must be distinguishable without relying on color (1 instance on 1 page)</summary>
+
+**Standard:** WCAG 2.0 A (1.4.1) · **Impact:** serious · **Signature:** `link-in-text-block :: a`
+
+**Problem:** The link has insufficient color contrast of 2.32:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0078a8, surrounding text: #343a40)
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/interactive/widgets/jupyter.html | 1440x900·light, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 
 </details>
 
@@ -1621,7 +1645,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/color-contrast?applicatio
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `a[href$="earthdata.nasa.gov"]` | `<a href="https://earthdata.nasa.gov">ESDIS</a>` |
 
 </details>
@@ -1778,7 +1802,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-ban
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/blog/posts/2026-05-07-new-blog-home/index.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#quarto-header` | `<header id="quarto-header" class="headroom fixed-top quarto-banner">` |
+| docs/blog/posts/2026-05-07-new-blog-home/index.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#quarto-header` | `<header id="quarto-header" class="headroom fixed-top quarto-banner headroom--top headroom--not-bottom">` |
 
 </details>
 
@@ -1795,7 +1819,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/landmark-unique?applicati
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/blog/posts/2026-05-07-new-blog-home/index.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#quarto-header` | `<header id="quarto-header" class="headroom fixed-top quarto-banner">` |
+| docs/blog/posts/2026-05-07-new-blog-home/index.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `#quarto-header` | `<header id="quarto-header" class="headroom fixed-top quarto-banner headroom--top headroom--not-bottom">` |
 
 </details>
 
@@ -1829,7 +1853,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/presentation-role-conflic
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/htmlwidgets.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="http://cdn.leafletjs.com/leaflet/v1.3.1/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(394px, 139px, 0px); z-index: 139;">` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/presentations/revealjs/demo/index.html | 320x568·default | `.leaflet-marker-icon` | `<img src="https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(480px, 240px, 0px); z-index: 240;">` |
@@ -1868,7 +1892,7 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role?applica
 
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
-| docs/interactive/index.html | 1440x900·dark, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
+| docs/interactive/index.html | 1440x900·dark, 320x568·dark | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 | docs/interactive/widgets/jupyter.html | 1440x900·dark, 1440x900·light, 320x568·dark, 320x568·light | `.leaflet-marker-icon` | `<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAApCAYAAADAk4LOAAAFgUlEQVR4Aa1XA5BjWRTN2oW17d3YaZtr2962HUzbDNpjszW24mRt28p47v7zq/bXZtrp/lWnXr337j3nPCe85NcypgSFdugCpW5YoDAMRaIMqRi6aKq5E3YqDQO3qAwjVWrD8Ncq/RBpykd8oZUb/kaJutow8r1aP9II0WmLKLIsJyv1w/kqw9Ch2MYdB++12Onxee/QMwvf4/Dk/Lfp/i4nxTXtOoQ4pW5Aj7wpici1A9erdAN2OH64x8OSP9j3Ft3b7aWkTg/Fm91siTra0f9on5sQr9INejH6CUUUpavjFNq1B+Oadhxmnfa8RfEm` |
 
 </details>
@@ -2042,6 +2066,23 @@ Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?applic
 | page | cells (width·mode) | selector | element |
 |---|---|---|---|
 | docs/authoring/article-layout.html | 320x568·dark, 320x568·light | `#multiple-outputs > .cell.page-full.page-columns > div[role="group"][aria-label="Scrollable output"][data-quarto-scrollable=""] > .table-sm.table-striped.small > thead > .header > th:nth-child(1)` | `<th style="text-align: left;"></th>` |
+
+</details>
+
+#### empty-table-header-4123ba
+
+<details>
+<summary>Table header text should not be empty (1 instance on 1 page)</summary>
+
+**Standard:** Best Practice · **Impact:** minor · **Signature:** `empty-table-header :: #oi-3a86ea > table > thead > tr > th`
+
+**Problem:** Element does not have text that is visible to screen readers
+
+Reference: <https://dequeuniversity.com/rules/axe/4.10/empty-table-header?application=axeAPI>
+
+| page | cells (width·mode) | selector | element |
+|---|---|---|---|
+| docs/interactive/ojs/data-sources.html | 320x568·dark, 320x568·light | `#oi-3a86ea-1 > table > thead > tr > th:nth-child(1)` | `<th><input type="checkbox"></th>` |
 
 </details>
 
